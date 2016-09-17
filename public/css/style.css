@@ -1,0 +1,53 @@
+bode{
+    padding:50px;
+    font: 14px "微软雅黑","Lucida Grande";
+}
+
+a{
+    color: #00b7ff;
+}
+
+#content{
+    width: 800px;
+    margin: 0px auto;
+}
+
+#room{
+    background-color:#ddd;
+    margin-bottom:1em;
+}
+
+#msg{
+    width: 690px;
+    height:300px;
+    overflow:auto;
+    background-color: #eee;
+    margin-bottom:1em;
+    margin-right: 10px;
+}
+
+#room-list{
+    float: right;
+    width: 100px;
+    height: 300px;
+    overflow: auto;
+}
+
+#room-list div{
+    border-bottom: 1px solid #eeeeee;
+    cursor: pointer;
+}
+
+#room-list div:hover{
+    background-color: #dddddd;
+}
+
+#sendMsg{
+    width: 700px;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+#help{
+    font: 10px "微软雅黑","Lucida Grande";
+}
